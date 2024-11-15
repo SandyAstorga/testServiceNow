@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="6e8ab432c3f95210574cb34ed40131e0" label="Register" max_length="40" name="x_1563088_testserv_register" type="collection"/>
+    <element db_object_id="6e8ab432c3f95210574cb34ed40131e0" label="Register" max_length="40" name="x_1563088_testserv_register" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="New Calendar Date/Time" max_length="40" name="u_calendar_date_time_2" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="sys_id" dependent_on_field="sys_id" label="New Choice" max_length="40" name="u_choice_3" read_only="true" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+    </element>
 </database>
